@@ -1,0 +1,71 @@
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  background-color: bisque;
+  border-radius: 15px;
+  position: relative;
+  padding: 1em;
+  margin: 2em;
+  box-shadow: 10px 5px 5px greenyellow;
+  height: 20em;
+}
+
+.button {
+  background-color: green;
+  height: fit-content;
+  position: absolute;
+  left: 89.8%;
+  bottom: 93%;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.name {
+  background-color: orangered;
+  border-radius: 15px;
+  width: fit-content;
+  padding: 5px;
+  height: fit-content;
+  position: absolute;
+  top: 60%;
+}
+
+.species {
+  background-color: orangered;
+  border-radius: 15px;
+  width: 100px;
+  padding: 5px;
+  height: fit-content;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
+
+.gender {
+  background-color: orangered;
+  border-radius: 15px;
+  width: 90px;
+  padding: 5px;
+  height: fit-content;
+  position: absolute;
+  top: 80%;
+  right: 55%;
+}
+
+.image {
+  border-radius: 15px;
+  width: 200px;
+  padding: 10px;
+}
